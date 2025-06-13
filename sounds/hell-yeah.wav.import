@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://cc6gvxyi7enyu"
-path="res://.godot/imported/coin.wav-fc7782b3c19e2c95d42ef7b3c218a810.sample"
+uid="uid://ye1dxi5b2dtn"
+path="res://.godot/imported/hell-yeah.wav-dedb81fc04e89745ac77275d134e7dfb.sample"
 
 [deps]
 
-source_file="res://sounds/coin.wav"
-dest_files=["res://.godot/imported/coin.wav-fc7782b3c19e2c95d42ef7b3c218a810.sample"]
+source_file="res://sounds/hell-yeah.wav"
+dest_files=["res://.godot/imported/hell-yeah.wav-dedb81fc04e89745ac77275d134e7dfb.sample"]
 
 [params]
 
