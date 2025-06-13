@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://coqu4m0qva6kv"]
+
+[ext_resource type="Script" uid="uid://b7xnatpor54nj" path="res://scripts/coin.gd" id="1_i64fm"]
+[ext_resource type="Texture2D" uid="uid://b4lu6o6vogtns" path="res://sprites/monstr_tr.png" id="2_i64fm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_11l1o"]
+size = Vector2(6.75, 14.5)
+
+[node name="monster" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_i64fm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_11l1o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.0299944, 0.0299944)
+texture = ExtResource("2_i64fm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
